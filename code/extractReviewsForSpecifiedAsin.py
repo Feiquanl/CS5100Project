@@ -21,7 +21,7 @@ with open('Books_5.json', 'r', encoding='utf-8') as file:
 df = pd.DataFrame(filtered_records)
 
 # Write the DataFrame to an Excel file
-#excel_filename = "extractedReviews/Book_1_12.csv"
+#excel_filename = "extractedReviews/Book_1_12.xlsx"
 #df.to_excel(excel_filename, index=False)
 
 csv_filename = "extractedReviews/Book_1_12.csv"
