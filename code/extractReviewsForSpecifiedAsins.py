@@ -24,5 +24,5 @@ df = pd.DataFrame(filtered_records)
 #excel_filename = "extractedReviews/Book_1_12.xlsx"
 #df.to_excel(excel_filename, index=False)
 
-csv_filename = "extractedReviews/Book_1_12.csv"
+csv_filename = "Book_1_12.csv"
 df.to_csv(csv_filename, index=False)
