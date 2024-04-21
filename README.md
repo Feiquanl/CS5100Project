@@ -12,7 +12,7 @@ We will be using the Amazon review dataset released in 2018 [1] as our dataset, 
 3. Model training process
 4.	Performance
 #####	Data Processing[2]
-1.	Pick up around 50 books that are as representative as possible
+1.	Pick up around 100 books that are as representative as possible
 2.	Collect the useful features from Amazon book reviews
 3.	Eliminate instances with missing data
 4.	Detect and remove Outliers
@@ -20,16 +20,10 @@ We will be using the Amazon review dataset released in 2018 [1] as our dataset, 
 1.	VADER model [3]
 2.	RoBERTa model [5]
 3.	Logistic regression, Naive Bayes, or support vector machines, to classify the reviews as fake or genuine based on the features
-4.	CNN (Potentially for images) [6]
-5.	Computer Vision (Potentially for images) 
-6.	Decision Tree
 #####	Representation
 Be able to target and filter out “Unreasonable” comments. We define “unreasonable” comments to be ones that fall under these categories:<br> 
-1.1 Off-topic from what the book is about<br>
-1.2	Poorly written, hard to understand<br>
-1.3	Reviews that do not elaborate on what was good/bad (criticism is valid and necessary, but should explain reasoning)<br>
-Be able to provide more accurate rating (or stars) for each candidate's books after filtering out “unreasonable” reviews.<br>
-Be able to select and highlight high quality and beneficial book reviews for users.
+1.1 mismatching between Overall and Score of reviewText<br>
+1.2	``fake'' detector feature to detect reviews<br>
 
 ### Future Scope
 Since Amazon allows including pictures and videos in review comments, our work could be extended in the future to perform recognition of pictures or videos submitted by users and detect unrelated pictures and videos.
