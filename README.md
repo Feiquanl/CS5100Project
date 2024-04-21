@@ -35,3 +35,4 @@ Furthermore, we could build a user-friendly book review web-platform. Through sp
 4.	Reference for VADER model: https://github.com/RajathAkshay/Sentiment-Classification-for-Product-Reviews
 5.	Reference for RoBERTa model: arXiv:1907.11692
 6.	Reference for CNN: 10.5591/978-1-57735-516-8/IJCAI11-210
+7.	Reference for fake review detector: https://github.com/SayamAlt/Fake-Reviews-Detection
