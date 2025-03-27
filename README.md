@@ -4,7 +4,7 @@
 ### Objective 
 Most customers shopping both on and off Amazon take Amazon product reviews significantly into account when making their purchasing decisions. For readers, authors, and publishers alike, navigating thousands of book reviews when seeking constructive feedback can be extremely time-consuming and overwhelming. Unfortunately, some reviews are unreasonable or emotionally charged, unhelpful, or filled with false information, leading to inaccurate ratings and rankings that may not reflect reality. Our project aims to tackle this problem specifically in the online book marketplace. The objective is to present a more accurate and reasonable ratings system by filtering out these kinds of unhelpful reviews and spotlighting highly valuable reviews using Artificial Intelligence-related technology.
 ### Materials & Method
-We will be using the Amazon review dataset released in 2018 [1] as our dataset, pick up the specific book category review dataset; furthermore, for the purposes of our project, we will select data from approximately 50 books for analysis.
+We will be using the Amazon review dataset released in 2018 [1] as our dataset, pick up the specific book category review dataset; furthermore, for the purposes of our project, we will select data from approximately 100 books for analysis.
 #### The approaches we plan to take is shown in the architecture below:
 #####	General steps
 1. Load Sample Data from Amazon Review Dataset and data processing
